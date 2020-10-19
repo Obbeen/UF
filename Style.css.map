@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 "version": 3,
 "mappings": "AAAA,EAAG;EACD,SAAS,EAAE,MAAM",
@@ -5,3 +6,6 @@
 "names": [],
 "file": "Style.css"
 }
+=======
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Style.css"}
+>>>>>>> 5974179797d748b068ee05882f9fb6f62114e91e
