@@ -1,11 +1,1 @@
-<<<<<<< HEAD
-{
-"version": 3,
-"mappings": "AAAA,EAAG;EACD,SAAS,EAAE,MAAM",
-"sources": ["Style.scss"],
-"names": [],
-"file": "Style.css"
-}
-=======
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Style.css"}
->>>>>>> 5974179797d748b068ee05882f9fb6f62114e91e
+{"version":3,"sourceRoot":"","sources":["Style.scss"],"names":[],"mappings":"AACA;EACI;;;AAKJ;EACE;;;AAMF;EACE;;;AAIF;EACE;;;AAIF;EACE;EACA;EACA;;;AAIF;EAEE;;;AAIF;EACE;;;AAGF;EACE;;;AAIF;EAEG;EACA;;;AAKF;EAEE;;;AAIF;EAEE;;;AAIH;EAEE;IAEE","file":"Style.css"}
