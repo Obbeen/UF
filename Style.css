@@ -85,6 +85,16 @@ section p {
   width: 73%;
 }
 
+.col-sm-8 .pvänster {
+  float: right;
+  margin-right: 10%;
+}
+
+.col-sm-8 .phöger {
+  float: right;
+  margin-right: 10%;
+}
+
 .goals {
   text-align: center;
 }
@@ -101,6 +111,10 @@ section p {
   text-align: center;
 }
 
+.col-sm h3 {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .carousel-item img {
     transform: translateY(0%);
@@ -108,7 +122,7 @@ section p {
 
   .grey-image {
     width: 100vw;
-    transform: translateX(-10vw);
+    margin-left: -10vw;
   }
 
   .phöger {
@@ -130,6 +144,22 @@ section p {
   .pvänster {
     text-align: center;
     width: 90%;
+    margin: 0 auto;
+  }
+
+  .col-sm-8 .pvänster {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .col-sm-8 .phöger {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .mobilp {
+    width: 90%;
+    text-align: center;
     margin: 0 auto;
   }
 }

@@ -116,7 +116,16 @@ section
  }
 
 
-
+.col-sm-8 .pvänster
+{
+  float: right;
+  margin-right: 10%
+}
+.col-sm-8 .phöger
+{
+  float: right;
+  margin-right: 10%
+}
  .goals
  {
    text-align: center;
@@ -136,6 +145,11 @@ section
 {
   text-align: center;
 }
+.col-sm h3
+{
+  text-align: center;
+}
+
 
 
 @media (max-width: 768px) {
@@ -144,12 +158,10 @@ section
 
     transform: translateY(0%);
   }
-.grey-image
-{
-  width: 100vw;
-  transform: translateX(-10vw);
-
-}
+  .grey-image {
+      width: 100vw;
+      margin-left: -10vw;
+  }
 
 .phöger
 {
@@ -171,9 +183,29 @@ section
 }
 .pvänster
 {
+
   text-align: center;
   width: 90%;
   margin:0 auto;
 
+
+}
+.col-sm-8 .pvänster
+{
+    float: none;
+    margin: 0 auto;
+
+}
+.col-sm-8 .phöger
+{
+    float: none;
+    margin: 0 auto;
+
+}
+.mobilp
+{
+  width: 90%;
+  text-align: center;
+  margin:0 auto;
 }
 }
