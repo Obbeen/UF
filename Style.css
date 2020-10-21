@@ -1,17 +1,61 @@
+@charset "UTF-8";
 .navbar-expand-lg .navbar-collapse {
   justify-content: end;
 }
 
+li.nav-item:nth-child(4) > a:nth-child(1) {
+  color: #0bd22a;
+  font-weight: bold;
+}
+
+li.nav-item:nth-child(4) > a:nth-child(1):hover {
+  color: #0bd22a;
+}
+
 li.nav-item:nth-child(1) > a:nth-child(1) {
   margin-right: 25px;
+  color: #0bd22a;
+  font-weight: bold;
+}
+
+li.nav-item:nth-child(1) > a:nth-child(1):hover {
+  color: #0bd22a;
+}
+
+.Logotyp {
+  width: 3%;
+}
+
+.bg-light {
+  background-color: black !important;
+}
+
+.navbar-toggler {
+  background-color: #0bd22a;
+}
+
+.nav-link {
+  font-style: bold;
 }
 
 li.nav-item:nth-child(2) > a:nth-child(1) {
   margin-right: 25px;
+  color: #0bd22a;
+  font-weight: bold;
+}
+
+li.nav-item:nth-child(2) > a:nth-child(1):hover {
+  color: #0bd22a;
 }
 
 li.nav-item:nth-child(3) > a:nth-child(1) {
   margin-right: 25px;
+  color: #0bd22a;
+  font-weight: bold;
+}
+
+li.nav-item:nth-child(3) > a:nth-child(1):hover {
+  color: #0bd22a;
 }
 
 .carousel {
@@ -38,16 +82,59 @@ section {
 }
 
 section p {
-  width: 50%;
+  width: 73%;
+}
+
+.phöger {
+  float: right;
+}
+
+.goals {
+  text-align: center;
 }
 
 .grey-image {
-  width: 200%;
+  width: 64vh;
+}
+
+.col-sm h2 {
+  text-align: center;
+}
+
+.KontaktaP {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .carousel-item img {
     transform: translateY(0%);
+  }
+
+  .grey-image {
+    width: 100vw;
+    transform: translateX(-10vw);
+  }
+
+  .phöger {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .Logotyp {
+    width: 13%;
+  }
+
+  .Produkt-Namn {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pvänster {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
