@@ -28,6 +28,10 @@ li.nav-item:nth-child(4) > a:nth-child(1):hover {
   color: #e104f9;
 }
 
+.kontaktinfo {
+  color: #e104f9;
+}
+
 li.nav-item:nth-child(1) > a:nth-child(1) {
   margin-right: 25px;
   color: #0bd22a;
