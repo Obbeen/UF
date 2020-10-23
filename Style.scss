@@ -3,44 +3,70 @@ body{
 }
 h1
 {
-  color: #0bd22a;
+  color: #e104f9;
 }
 h2
 {
-  color: #0bd22a;
+  color: #e104f9;
 }
 h3
 {
-  color: #0bd22a;
+  color: #e104f9;
+  padding-top: 1%;
 }
 .navbar-expand-lg .navbar-collapse {
     justify-content: end;
 }
 
 li.nav-item:nth-child(4) > a:nth-child(1) {
-  color: #0bd22a;
+  color: #e104f9;
   font-weight: bold;
 }
 li.nav-item:nth-child(4) > a:nth-child(1):hover {
-  color: #e104f9;
+  color: #f9c342;
 }
 
-.kontaktinfo
-{
-  color: #e104f9;
+
+.btn-primary {
+    color: #fff;
+    background-color: #e104f9;
+    border-color: #e104f9;
+    border: none;
+
 }
+.btn-primary:hover
+{
+  background-color: #f9c342;
+}
+
+
+.text-md-left
+{
+  text-align: center !important;
+  margin-right: 0;
+  padding-bottom: 10px;
+}
+
+
+.contact
+{
+  width: 64vw;
+  margin-left: 23%;
+
+}
+
 
 
 
 li.nav-item:nth-child(1) > a:nth-child(1) {
   margin-right: 25px;
-  color: #0bd22a;
+  color: #e104f9;
   font-weight: bold;
 
 }
 li.nav-item:nth-child(1) > a:nth-child(1):hover {
 
-  color: #e104f9;
+  color: #f9c342;
 
 }
 
@@ -74,23 +100,23 @@ li.nav-item:nth-child(1) > a:nth-child(1):hover {
 
 li.nav-item:nth-child(2) > a:nth-child(1) {
   margin-right: 25px;
-  color: #0bd22a;
+  color: #e104f9;
   font-weight: bold;
 }
 li.nav-item:nth-child(2) > a:nth-child(1):hover {
-  color: #e104f9;
+  color: #f9c342;
 }
 
 
 
 li.nav-item:nth-child(3) > a:nth-child(1) {
   margin-right: 25px;
-  color: #0bd22a;
+  color: #e104f9;
   font-weight: bold;
 }
 li.nav-item:nth-child(3) > a:nth-child(1):hover {
 
-  color: #e104f9;
+  color: #f9c342;
 }
 
 
@@ -133,6 +159,12 @@ section
  }
 
 
+   label
+   {
+     color: white;
+   }
+
+
 .col-sm-8 .pvänster
 {
   float: right;
@@ -162,6 +194,8 @@ section
 .KontaktaP
 {
   text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 .col-sm h3
 {
@@ -169,15 +203,34 @@ section
 }
 p{
   font-weight: bold;
-  color: #0bd22a;
   font-size: 1.2rem;
+  border-style: solid;
+    border-radius: 1vh;
+    border-color: #0bea2f;
+    color: white;
 }
+
+
 .carousel-indicators li
 {
   background-color: #e104f9;
 }
 
+.contactinfo
+{
+  width: 100%;
+  margin:0 auto;
+  float:left;
+  padding-top: 17px;
 
+}
+.contact
+{
+  width: 64vw;
+  margin-left: 23%;
+  margin:0 auto;
+
+}
 
 
 @media (max-width: 768px) {
@@ -244,5 +297,9 @@ p{
 p
 {
   text-align: center;
+}
+.KontaktaP
+{
+  width: 100%;
 }
 }
