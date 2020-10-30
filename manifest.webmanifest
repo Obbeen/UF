@@ -1,8 +1,8 @@
 {
   "name": "Piradise",
   "short_name": "short name",
-  "theme_color": "#000",
-  "background_color": "#e104f9",
+  "theme_color": "#e104f9",
+  "background_color": "#000",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "",
