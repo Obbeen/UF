@@ -1,4 +1,3 @@
-
 Copyright 2015, 2019, 2020 Google LLC. All Rights Reserved.
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -22,6 +21,8 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
+      console.log("1");
+
       // Setting {cache: 'reload'} in the new request will ensure that the
       // response isn't fulfilled from the HTTP cache; i.e., it will be from
       // the network.
@@ -59,6 +60,8 @@ self.addEventListener("fetch", (event) => {
           if (preloadResponse) {
             return preloadResponse;
           }
+          console.log("2");
+
 
           // Always try the network first.
           const networkResponse = await fetch(event.request);
@@ -77,6 +80,8 @@ self.addEventListener("fetch", (event) => {
       })()
     );
   }
+  console.log("4");
+
 
   // If our if() condition is false, then this fetch handler won't intercept the
   // request. If there are any other fetch handlers registered, they will get a
